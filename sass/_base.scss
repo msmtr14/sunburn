@@ -1,0 +1,67 @@
+// COLOR VARIABLES
+$color-primary: #999592; 
+$color-primary-dark: #272723; 
+$color_body: #404040;
+$color_white: #ffffff;
+
+$color_red: #FF0000;
+
+$color_1: #3c3c3c ;
+$color_2: #ffa800 ;
+$color_3: #fff ;
+$color_4: #d93d00 ;
+$color_5: #F44336 ;
+$color_6: #828282 ;
+$color_7: #3e3e3e ;
+$color_8: #2c2c2c ;
+$color_9: #dddddd ;
+$color_10: #b8b8b8 ;
+$color_11: #5d5d5d;
+$color_12: #ff4800;
+
+// FONT VARIABLES
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Righteous', cursive;
+
+//BODY ELEMENTS
+
+body {
+    padding:0;
+    margin:0;
+    font-family: $font-primary;
+}
+
+.font_righteous {
+    font-family: $font-secondary;
+}
+
+.bck_black {
+    background: $color_1;
+}
+
+.bck{
+    
+    &_white {
+        background: $color_white;
+    }
+
+    &_red {
+        background: $color_12;
+    }
+
+    &_yellow {
+        background: $color_2;
+    }
+}
+
+.iconImage {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.center_wrapper {
+    width: 900px;
+    margin:0 auto;
+}
+
+footer, header, {}

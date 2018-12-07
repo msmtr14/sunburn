@@ -1,0 +1,65 @@
+
+/*====================
+        HIGHLIGHTS
+======================*/
+
+.highlight_wrapper{
+    
+    & h2{
+        text-align: center;
+        text-transform: uppercase;
+        color: $color_8;
+        font-size: 52px;
+    }
+
+    & .highlight_description {
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        border-top: 1px solid $color_9;
+        border-bottom: 1px solid $color_9;
+        padding: 30px 0px;
+        text-align: justify;
+    } 
+}
+
+
+.discount_wrapper {
+    display: flex;
+    padding: 70px 0px;
+
+    & .discount_porcentage {
+        padding-right: 100px;
+    
+        & span:nth-child(1) {
+            color: $color_12;
+            font-size: 125px;
+            font-weight: 400;
+            display: block;
+            line-height: 120px;
+        }
+        
+        & span:nth-child(2) {
+            color: $color_8;
+            font-size: 50px;
+            font-weight: 400;
+            display: block;
+        }
+    }
+    
+    & .discount_description{
+       & h3{
+        font-size: 34px;
+        font-weight: 100;
+        margin: 0px;
+        color: $color_8;   
+        text-align: justify;
+       }
+       
+       & p{
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+       }
+    } 
+}

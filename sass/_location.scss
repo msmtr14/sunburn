@@ -1,0 +1,28 @@
+
+
+/*====================
+        LOCATION    
+======================*/
+
+.location{
+    &_wrapper{
+        position:relative;
+    }
+
+    &_tag{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+
+        & div{
+            background: $color_2;
+            color: $color_white;
+            text-transform: uppercase;
+            width: 220px;
+            margin: 0 auto;
+            font-size: 29px;
+            padding: 15px 20px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+
+
+/*====================
+        PRICING
+======================*/
+
+.pricing{
+    &_section{
+        padding: 70px 0px;
+
+        & h2{
+            color: $color_white;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 50px;
+            margin: 0;
+        }
+    }
+
+    &_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+
+        & .pricing_item{
+            flex-grow: 1;
+            width: 33%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        & .pricing_inner_wrapper {
+            border:2px solid $color_2;
+            padding: 50px 20px;
+        }
+    }
+
+    &_inner_wrapper{
+     
+        & .pricing_title{
+            color: $color_white;
+            text-align: center;
+            border-bottom: 1px solid $color_2;
+            padding-bottom: 20px;
+
+            & span:nth-child(1) {
+                font-size: 50px;
+                display: block;
+            }
+
+            & span:nth-child(2) {
+                text-transform: uppercase;
+                font-size: 28px;
+                font-weight: 300;
+            }
+        }
+
+        & .pricing_description {
+            color: $color_10;
+            font-weight: 300;
+            font-size: 14px;
+            text-align: center;
+            padding: 20px 0px;
+            min-height: 70px;
+        }
+
+        & .pricing_buttons {
+            text-align: center;
+       }   
+    }
+}

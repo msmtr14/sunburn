@@ -1,0 +1,22 @@
+
+/*====================
+        HEADER
+======================*/
+
+
+header {
+    padding:10px 0px;
+    transition: all 300ms ease-in;
+
+    & .header_logo{
+        flex-grow: 1;
+
+        &_venue{
+            font-size: 40px;
+        }
+
+        &_title{
+            text-transform: uppercase;
+        }
+    }
+}

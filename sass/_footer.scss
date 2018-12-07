@@ -1,0 +1,16 @@
+
+/*====================
+        FOOTER
+======================*/
+
+footer {
+    padding:50px 0px;
+    text-align: center;
+    font-size: 60px;
+    color: $color_white;
+    background: $color_red;
+
+    & .footer_copyright {
+        font-size: 18px;
+    }    
+}
