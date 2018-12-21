@@ -13,4 +13,10 @@ footer {
     & .footer_copyright {
         font-size: 18px;
     }    
+
+    & .footer_developer {
+        text-decoration: none;
+        color: $color_white;
+        margin-top: 10%;
+    }
 }

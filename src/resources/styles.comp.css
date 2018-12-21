@@ -178,6 +178,10 @@ footer {
   background: #FF0000; }
   footer .footer_copyright {
     font-size: 18px; }
+  footer .footer_developer {
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 10%; }
 
 /*====================
         HIGHLIGHTS
