@@ -24,6 +24,9 @@
     "compress:css": "node-sass src/resources/styles.comp.css src/resources/styles.css --output-style compressed",
     "sass": "concurrently \"npm run compile:sass\" \"npm run compress:css\""
   },
+"engines": {
+  "node":"8.11.3"
+},
   "devDependencies": {
     "autoprefixer": "^9.4.2",
     "concat": "^1.0.3",
