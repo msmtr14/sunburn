@@ -22,7 +22,8 @@
     "devserver": "live-server --browser=firefox",
     "compile:sass": "node-sass sass/main.scss src/resources/styles.comp.css",
     "compress:css": "node-sass src/resources/styles.comp.css src/resources/styles.css --output-style compressed",
-    "sass": "concurrently \"npm run compile:sass\" \"npm run compress:css\""
+    "sass": "concurrently \"npm run compile:sass\" \"npm run compress:css\"",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install && npm build"
   },
 "engines": {
   "node":"8.11.3"
